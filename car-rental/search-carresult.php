@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include('includes/config.php');
+include 'includes/config.php';
 error_reporting(0);
 ?>
 
@@ -47,11 +47,11 @@ error_reporting(0);
 <body>
 
 <!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
+<?php include 'includes/colorswitcher.php';?>
 <!-- /Switcher -->  
 
 <!--Header--> 
-<?php include('includes/header.php');?>
+<?php include 'includes/header.php';?>
 <!-- /Header --> 
 
 <!--Page Header-->
@@ -202,7 +202,7 @@ foreach($results as $result)
 <!-- /Listing--> 
 
 <!--Footer -->
-<?php include('includes/footer.php');?>
+<?php include 'includes/footer.php';?>
 <!-- /Footer--> 
 
 <!--Back to top-->
@@ -210,16 +210,15 @@ foreach($results as $result)
 <!--/Back to top--> 
 
 <!--Login-Form -->
-<?php include('includes/login.php');?>
+<?php include 'includes/login.php';?>
 <!--/Login-Form --> 
 
 <!--Register-Form -->
-<?php include('includes/registration.php');?>
-
+<?php include 'includes/registration.php';?>
 <!--/Register-Form --> 
 
 <!--Forgot-password-Form -->
-<?php include('includes/forgotpassword.php');?>
+<?php include 'includes/forgotpassword.php';?>
 
 <!-- Scripts --> 
 <script src="assets/js/jquery.min.js"></script>

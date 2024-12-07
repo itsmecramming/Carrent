@@ -103,7 +103,7 @@ $error="Something went wrong. Please try again";
         <h1>Contact Us</h1>
       </div>
       <ul class="coustom-breadcrumb">
-        <li><a href="#">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li>Contact Us</li>
       </ul>
     </div>

@@ -2,7 +2,7 @@
 <?php
 session_start();
 error_reporting(0);
-include('includes/config.php');
+include 'includes/config.php';
 if(strlen($_SESSION['login'])==0)
   { 
 header('location:index.php');
@@ -51,11 +51,11 @@ else{
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 </head>
 <body>
-<?php include('includes/colorswitcher.php');?>
+<?php include 'includes/colorswitcher.php';?>
 <!-- /Switcher -->  
         
 <!--Header-->
-<?php include('includes/header.php');?>
+<?php include 'includes/header.php';?>
 <!--Page Header-->
 <section class="page-header profile_page">
   <div class="container">
@@ -101,7 +101,7 @@ foreach($results as $result)
   
   <div class="row">
       <div class="col-md-3 col-sm-3">
-        <?php include('includes/sidebar.php');?>
+        <?php include 'includes/sidebar.php';?>
       <div class="col-md-8 col-sm-8">
 
 
@@ -153,7 +153,7 @@ foreach($results as $result)
 <!--/my-vehicles--> 
 
 <<!--Footer -->
-<?php include('includes/footer.php');?>
+<?php include 'includes/footer.php';?>
 <!-- /Footer--> 
 
 <!--Back to top-->
